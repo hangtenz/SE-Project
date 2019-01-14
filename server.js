@@ -8,6 +8,9 @@ app.use(express.static('css'));
 app.get('/', function(req, res){
     res.render('index');
   });
+app.get('/signUp',function(req,res){
+    res.render('signUp');
+});
 app.listen(3000,function(){
     console.log("listening on port 3000");
 });
