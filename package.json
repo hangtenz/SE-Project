@@ -1,0 +1,24 @@
+{
+  "name": "se-project",
+  "version": "1.0.0",
+  "description": "for SE Only",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hangtenz/SE-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hangtenz/SE-Project/issues"
+  },
+  "homepage": "https://github.com/hangtenz/SE-Project#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
